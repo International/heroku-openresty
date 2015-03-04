@@ -3,7 +3,7 @@ package = "heroku-openresty"
 version = "dev-2"
 
 source = {
-	url = "git://github.com/leafo/heroku-openresty.git"
+	url = "git://github.com/International/heroku-openresty.git"
 }
 
 description = {
@@ -54,7 +54,7 @@ build = {
 			["resty.core.shdict"] = "lualib/resty/core/shdict.lua",
 			["resty.core.uri"] = "lualib/resty/core/uri.lua",
 			["resty.core.var"] = "lualib/resty/core/var.lua",
-      ["resty.postgres"] = "lualib/resty/postgres.lua",
+			["resty.postgres"] = "lualib/resty/postgres.lua",
 			["resty.dns.resolver"] = "lualib/resty/dns/resolver.lua",
 			["resty.lock"] = "lualib/resty/lock.lua",
 			["resty.md5"] = "lualib/resty/md5.lua",
