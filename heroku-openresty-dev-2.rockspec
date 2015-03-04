@@ -54,6 +54,7 @@ build = {
 			["resty.core.shdict"] = "lualib/resty/core/shdict.lua",
 			["resty.core.uri"] = "lualib/resty/core/uri.lua",
 			["resty.core.var"] = "lualib/resty/core/var.lua",
+      ["resty.postgres"] = "lualib/resty/postgres.lua",
 			["resty.dns.resolver"] = "lualib/resty/dns/resolver.lua",
 			["resty.lock"] = "lualib/resty/lock.lua",
 			["resty.md5"] = "lualib/resty/md5.lua",
